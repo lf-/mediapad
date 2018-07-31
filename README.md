@@ -1,9 +1,14 @@
 # mediapad
 
-![picture of physical mediapad](mediapad.jpg)
+![picture of case](case_front.jpg)
+![picture of insides](case_inside.jpg)
 
-This is a 1 hour arduino project that I did since I wanted media buttons,
-which I lacked due to using a Unicomp Model M.
+This is a quick arduino project that I did since I wanted media buttons
+while also using a keyboard without them.
+
+Files are provided here for a 3D printed case. Please contact me if you need the
+full Fusion 360 models; it didn't want to export the geometry in external
+files for the keypad, for example.
 
 It requires [Nico Hood's HID library](https://github.com/NicoHood/HID).
 
