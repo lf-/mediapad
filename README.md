@@ -21,3 +21,11 @@ Keymap (I use [Google Play Music Desktop Player](https://github.com/MarshallOfSo
     4, 5, 6 :: Ctrl-F22,23,24 (bound to dislike, notify current track, like)
     7, 8, 9 :: Volume down, mute, up
     *, 0, # :: Prev track, pause, next track
+
+### Bill of materials
+
+* 4x M3x10 or shorter
+* 4x M2.5x6 (4mm ones will likely work as well)
+* 4x M3x6 or shorter (I cut down mine from 15mm to 5mm)
+* Arduino Leonardo
+* SparkFun COM-08653 (obsolete, change rowPins and colPins for the new one to work)
