@@ -30,6 +30,21 @@ void loop() {
 
   if (key) {
     switch (key) {
+    case '1':
+      Keyboard.press(KEY_LEFT_CTRL);
+      Keyboard.write(KEY_F17);
+      Keyboard.release(KEY_LEFT_CTRL);
+      break;
+    case '2':
+      Keyboard.press(KEY_LEFT_CTRL);
+      Keyboard.write(KEY_F18);
+      Keyboard.release(KEY_LEFT_CTRL);
+      break;
+    case '3':
+      Keyboard.press(KEY_LEFT_CTRL);
+      Keyboard.write(KEY_F19);
+      Keyboard.release(KEY_LEFT_CTRL);
+      break;
     case '4':
       Keyboard.press(KEY_LEFT_CTRL);
       Keyboard.write(KEY_F22);
